@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.13.6'
+use_frameworks!
+
+target 'bjut' do
+  pod 'Alamofire', '~> 4.4.0'
+  pod 'SwiftyJSON'
+end
